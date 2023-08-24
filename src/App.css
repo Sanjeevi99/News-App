@@ -1,0 +1,157 @@
+.App {
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: gray; */
+  margin-left: 10%;
+}
+
+body{
+  background-color: lightblue;
+}
+
+.search{
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: red; */
+  display: flex;
+}
+
+.search-input{
+  width: 90%;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid lightgrey;
+  text-indent: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+}
+
+.search-btn{
+  width: 10%;
+  height: 44px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+
+}
+
+.articles{
+  padding: 20px;
+  /* background-color: red; */
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article{
+  width: 23%;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px lightgray;
+}
+
+.news-img{
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.news-details{
+  padding: 10px;
+}
+
+.btn{
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.author{
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
